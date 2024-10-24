@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/erntTt94/Product-Preview-Card](https://github.com/erntTt94/Product-Preview-Card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://ernttt94.github.io/Product-Preview-Card/](https://ernttt94.github.io/Product-Preview-Card/)
 
 ## My process
 
