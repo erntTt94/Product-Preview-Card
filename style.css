@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#mainContainer {
+    width: 580px;
+    height: 450px;
+    display: flex;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+#mainImg {
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#mobileImg {
+    display: none;
+}
+
+#items {
+    margin: 0 28px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#title {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+#productName {
+    color: black;
+    font-family: 'Fraunces', serif;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#productInformation {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#price {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+span {
+    font-size: 11px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+#cart {
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    padding: 0.8em 5em;
+    border-radius: 10px;
+    border: none;
+   
+}
+
+#cartImg {
+   padding-right: 6px;
+}
+
+#cart:hover {
+    cursor: pointer;
+    background-color: hsl(158, 88%, 10%);
+}
+
+@media(max-width: 375px) {
+    main {
+        align-items: flex-start;
+        height: 550px;
+    }
+    #mainContainer {
+        width: 300px;
+        height: 500px;
+        flex-direction: column;
+    }
+
+    #mainImg {
+        display: none;
+    }
+
+    #mobileImg {
+        display:unset;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #title {
+        margin-top: 15px;
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+    #productName {
+        font-size: 22px;
+        margin: 6px 0;
+    }
+
+    #productInformation{
+        font-size: 12px;
+    
+    }
+
+    #price  {
+        font-size: 23px;
+        margin: 2px 0;
+       }
+
+    #cart {
+        font-size: 10px;
+        align-self: center;
+        margin: 10px 0;
+        padding: 10px 80px;
+    }
+
+
+
+}
